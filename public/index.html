@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/app.js" async></script>
+
+    <title>IP ADDRESS TRACKER</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="search-section">
+          <h1>IP Address Tracker</h1>
+          <div class="search-bar">
+            <input
+              type="text"
+              placeholder="Serach for any IP address or domain"
+              id="input-bar"
+            />
+            <button id="btn-search">
+              <img src="../images/icon-arrow.svg" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="middle-section">
+        <div class="content">
+          <div class="info side-lines">
+            <h6>IP ADDRESS</h6>
+            <p>Sample</p>
+          </div>
+
+          <div class="info side-lines">
+            <h6>LOCATION</h6>
+            <p>Sample</p>
+          </div>
+
+          <div class="info side-lines">
+            <h6>TIMEZONE</h6>
+            <p>Sample</p>
+          </div>
+
+          <div class="info">
+            <h6>ISP</h6>
+            <p>Sample ahell elll</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="map" id="map"></div>
+    </div>
+  </body>
+</html>
